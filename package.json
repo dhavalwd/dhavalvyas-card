@@ -57,7 +57,7 @@
       "work": "Front End Developer"
     },
     "data": [
-      "          <white><bold>{{name}}</></><green> // </><cyan>{{work}}</>",
+      "          <white><bold>{{name}}</></><green> / </><cyan>{{work}}</>",
       "          <white>{{location}}</>",
       "",
       {
