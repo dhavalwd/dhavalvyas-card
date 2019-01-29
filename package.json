@@ -1,6 +1,6 @@
 {
   "name": "dhavalvyas",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Personal npm card for Dhaval Vyas (@dhavalvyas)",
   "main": "dist/card.js",
   "unpkg": "index.html",
