@@ -54,12 +54,23 @@
       "github": "dhavalwd",
       "linkedin": "dhavalbvyas",
       "web": "https://dhavalvyas.me",
-      "work": "Front End Developer"
+      "work": "Front End Developer",
+      "dev": "dhavalwd"
     },
     "data": [
       "          <white><bold>{{name}}</></><green> / </><cyan>{{work}}</>",
       "          <white>{{location}}</>",
       "",
+      {
+        "label": "Website",
+        "text": "<magenta>{{web}}</>",
+        "when": "{{web}}"
+      },
+      {
+        "label": "Dev.to",
+        "text": "https://dev.to/<magenta>{{dev}}</>",
+        "when": "{{dev}}"
+      },
       {
         "label": "Twitter",
         "text": "https://twitter.com/<cyan>{{twitter}}</>",
@@ -79,11 +90,6 @@
         "label": "LinkedIn",
         "text": "https://www.linkedin.com/in/<blue>{{linkedin}}</>",
         "when": "{{linkedin}}"
-      },
-      {
-        "label": "Website",
-        "text": "<magenta>{{web}}</>",
-        "when": "{{web}}"
       },
       "",
       {
